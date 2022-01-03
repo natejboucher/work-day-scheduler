@@ -21,114 +21,20 @@
     </header>
 
     <!-- Time blocks -->
-    <div class="container mw-75">
-        <!-- 9am -->
-        <div class="row  justify-content-around">
-            <div class="col-12 col-md-2 hour">
-                <p class="text-right" id="hour">9AM</p>
-            </div>
-            
-            <div class="col-12 col-md-6 description">
-                <p id="task-description"></p>
-            </div>
-
-            <button class="mh-100 mw-100 saveBtn"><span class="oi oi-book"></span></button>
-        </div>
-        <!-- 10am -->
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-2 hour">
-                <p class="text-right" id="hour">10AM</p>
-            </div>
-            <div class="col-12 col-md-6 col-xl-8 description">
-                <p id="task-description"></p>
-            </div>
-            <div>
-                <button type="button" class="saveBtn"></button>
-            </div>
-        </div>
-        <!-- 11am -->
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-3 col-xl-2 hour">
-                <p class="text-right" id="hour">11AM</p>
-            </div>
-            <div class="col-12 col-md-6 col-xl-8 description">
-                <p id="task-description"></p>
-            </div>
-            <div>
-                <button type="button" class="saveBtn"></button>
-            </div>
-        </div>
-        <!-- 12pm -->
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-3 col-xl-2 hour">
-                <p class="text-right" id="hour">12PM</p>
-            </div>
-            <div class="col-12 col-md-6 col-xl-8 description">
-                <p id="task-description"></p>
-            </div>
-            <div>
-                <button type="button" class="saveBtn"></button>
-            </div>
-        </div>
-        <!-- 1pm -->
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-3 col-xl-2 hour">
-                <p class="text-right" id="hour">1PM</p>
-            </div>
-            <div class="col-12 col-md-6 col-xl-8 description">
-                <p id="task-description"></p>
-            </div>
-            <div>
-                <button type="button" class="saveBtn"></button>
-            </div>
-        </div>
-        <!-- 2pm -->
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-3 col-xl-2 hour">
-                <p class="text-right" id="hour">2PM</p>
-            </div>
-            <div class="col-12 col-md-6 col-xl-8 description">
-                <p id="task-description"></p>
-            </div>
-            <div>
-                <button type="button" class="saveBtn"></button>
-            </div>
-        </div>
-        <!-- 3pm -->
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-3 col-xl-2 hour">
-                <p class="text-right" id="hour">3PM</p>
-            </div>
-            <div class="col-12 col-md-6 col-xl-8 description">
-                <p id="task-description"></p>
-            </div>
-            <div>
-                <button type="button" class="saveBtn"></button>
-            </div>
-        </div>
-        <!-- 4pm -->
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-3 col-xl-2 hour">
-                <p class="text-right" id="hour">4PM</p>
-            </div>
-            <div class="col-12 col-md-6 col-xl-8 description">
-                <p id="task-description"></p>
-            </div>
-            <div>
-                <button type="button" class="saveBtn"></button>
-            </div>
-        </div>
-        <!-- 5pm -->
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-3 col-xl-2 hour">
-                <p class="text-right" id="hour">5PM</p>
-            </div>
-            <div class="col-12 col-md-6 col-xl-8 description">
-                <p id="task-description"></p>
-            </div>
-            <div>
-                <button class="saveBtn"><span class="oi oi-book"></span></button>
-            </div>
+    <div class="container">
+        <div class="row justify-content-around">
+            <form class="form-inline col-12">
+                <div class="form-group mb-2 hour col-2">
+                  9AM
+                </div>
+                <div class="form-group description col-7">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" id="taskDescription" rows="3"></textarea>
+                </div>
+                <div class="col-3">
+                    <button type="submit" class="btn saveBtn mh-100"><span class="oi oi-book"></span></button>
+                </div>
+            </form>
         </div>
     </div>
 
