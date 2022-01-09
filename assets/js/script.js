@@ -14,6 +14,7 @@ function loadData() {
     };
 }
 
+//function to set background color
 function textColor(hour, currentHour, textArea)  {
     if (hour < currentHour)  {
         textArea.addClass("past");
